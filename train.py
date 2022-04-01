@@ -106,7 +106,7 @@ def train(num_episodes, learning_rate, h1_size, h2_size, index, start, end ,step
         plt.plot(x, mynn(x).detach(),label = "Predicted")
         plt.legend(loc="upper center")
         plt.title("Target and Predicted function")
-        plt.xlabel("Training parameter (x)")
+        plt.xlabel("Training parameters (x)")
         plt.ylabel("Target parameters (y) ")
     
     elif index == 4 or index == 5 or index == 6:
@@ -138,7 +138,7 @@ def train(num_episodes, learning_rate, h1_size, h2_size, index, start, end ,step
         plt.plot(x, mynn(x).detach(),label = "Predicted")
         plt.legend(loc="upper center")
         plt.title("Target and Predicted function")
-        plt.xlabel("Training parameter (x)")
+        plt.xlabel("Training parameters (x)")
         plt.ylabel("Target parameters (y) ")
         
     elif index == 7 or index == 8 or index == 9:
@@ -165,7 +165,7 @@ def train(num_episodes, learning_rate, h1_size, h2_size, index, start, end ,step
         plt.plot(x, mynn(x).detach(),label = "Predicted")
         plt.legend(loc="upper center")
         plt.title("Target and Predicted function")
-        plt.xlabel("Training parameter (x)")
+        plt.xlabel("Training parameters (x)")
         plt.ylabel("Target parameters (y) ")
     
         
