@@ -6,7 +6,7 @@ in order to see how Hidden Layers and Activators Works.
 
 In "networks.py" are defined few types of Neural Network.
 
-In "train.py" is defined "train()" method, that will train our Neural Network.
+In "train.py" is defined "train()" method, that will train our choosen Neural Network.
 
 Our input parameters will be a tensor "x". To define it we will use "torch.arange" in train() method,
 with parameters "start" -> where 'x' starts; "end" -> where 'x' end; "step" -> how many numbers are between "start" and "end"
@@ -44,7 +44,7 @@ For NeuralNetwork8, NeuralNetwork9 "multiplier" can be set:
     The output of Tanh or Sigmoid is [-1, 1] or [0, 1], thus if we multiply the output of this two activators with multiplier, we get the max value of 'y'
 
 
-The user can play with those parameters below and see on plots how Neural Networks works inside
+The user can play with those parameters below and see on plots how Neural Networks work inside
 """
 
 """ ***** PARAMETERS FOR USER ***** """
@@ -66,15 +66,7 @@ h1_size = 2 # Size of First Hidden Layer
 h2_size = 2 # Size of Second Hidden Layer
 
 index = 1 # Explained in description above
-multiplier = 15.5 # Explained in description above
+multiplier = 1 # Explained in description above
 
 # Call training function
-train(num_episodes, learning_rate, h1_size, h2_size, index, start, end ,step, a ,b, multiplier)   
-
-
-     
-
-
-
-
-
+train(num_episodes, learning_rate, h1_size, h2_size, index, start, end ,step, a ,b, multiplier) 
